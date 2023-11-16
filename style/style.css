@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
+    height: 100vh;
+    padding: 0 3rem;
+    font-family: Poppins;
+  }
+
+ 
+  input, button, textarea, select {
+    font: inherit;
+  }
+
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  /* Navigation Bar [START] */
+  nav{
+    padding: 1rem 2.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+    margin-top: 3rem;
+    /* margin: 2rem; */
+    border-radius: 2rem;
+
+    box-shadow: 0px 0px 10px #558AF1;
+    }
+
+/* Logo */
+nav img{
+    height: 36px;
+    width: 296px;
+}
+
+/* Links */
+nav .links{
+    list-style:  none;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+nav .links .link {
+    font-size: 1.2rem;
+}
+
+/* link */
+
+nav .links .link > a{
+    text-decoration: none;
+    color: #000;
+}
+  /* Navigation Bar [END] */
+
+
+/* Section HERO [START] */
+
+    .hero{
+        width: 100%;
+        padding: 8rem 8rem;
+        display: flex;
+        flex-direction: row;
+        /* align-items: flex-start; */
+        gap: 5rem;
+        /* justify-content: space-evenly; */
+    }
+
+    .hero-img{
+        /* flex-basis: 50%; */
+        width: 50%;
+    }
+    .hero-img > img{
+        width:100%;
+        height: 100%;
+        object-fit: cover;
+        position: center;
+        border-radius: 1rem;
+    }
+    
+    .hero > .hero-text{
+        width: 50%;
+        /* flex-basis: 50%; */
+    }
+    .hero-text > h1{
+        font-size: 76px;
+    }
+    .hero-text > h3{
+        font-size: 28px;
+        font-weight: 400;
+    }
+
+    .hero-text .cta{
+        display: flex;
+        flex-direction: row;
+        margin-top: 1.5rem;
+        gap: 3rem;
+        font-weight: 500;
+    }
+
+    .cta .learn-more{
+        padding: 0 2.3rem;
+        height: 70px;
+        border-radius: 36px;
+        background-color: #fff;
+        border: 1px solid #558AF1;
+        color: #558AF1;
+        
+    }
+    .cta .get-started{
+        padding: 0 2.3rem;
+        height: 70px;
+        border-radius: 36px;
+        color: #fff;
+        background-color:  #558AF1;
+        border: none;
+
+    }
+/* Section HERO [END] */
